@@ -1,0 +1,278 @@
+/* ---------- For All */
+.pi-chevron-right:before {
+    content: "\e900" !important;
+}
+.pi-angle-left:before {
+    content: "\e930" !important;
+}
+.pi-angle-left:before {
+    content: "\e932" !important;
+}
+.pi-angle-right:before {
+    content: "\e931" !important;
+}
+.pi-angle-double-left:before {
+    content: "\e92e" !important;
+}
+.pi-angle-double-right:before {
+    content: "\e92d" !important;
+}
+
+/* -------------------------------------------------- TreeNode Menu ----------- */
+.p-tree {
+    padding: 0.1rem !important;
+}
+.p-tree .pi-chevron-right:before{
+    content: "\e900" !important;
+}
+.p-tree .p-tree-container .p-treenode .p-treenode-content .p-tree-toggler {
+    margin-right: 0 !important;
+    margin-left: 0.5rem;
+}
+.p-tree .p-tree-container .p-treenode .p-treenode-content .p-treenode-icon {
+    margin-right: 0 !important;
+    margin-left: 0.5rem;
+}
+.p-tree .p-tree-container .p-treenode .p-treenode-content {
+    border-radius: 6px;
+    transition: box-shadow 0.2s;
+    padding: 0.1rem !important;
+}
+/* -------------------------------------------------- PanelMenu --------------- */
+.p-panelmenu .p-panelmenu-header > a {
+    padding: 0.7rem !important;
+}
+.p-panelmenu .p-panelmenu-content .p-menuitem .p-menuitem-link .p-panelmenu-icon,.p-panelmenu .p-panelmenu-header > a .p-panelmenu-icon,.p-menuitem-icon {
+    margin-right: 0 !important;
+    margin-left: 0.5rem;
+}
+.p-panelmenu .pi-chevron-right:before{
+    content: "\e900" !important;
+}
+.p-menuitem .pi-angle-right:before{
+    content: "\e931" !important;
+}
+/* -------------------------------------------------- Sidebar --------------- */
+.p-sidebar .p-sidebar-header {
+    display: none !important;
+}
+/* .p-sidebar .p-sidebar-content {
+    padding: 0 !important;
+} */
+/* ---------------------------------------------- Inputs -------------------------------- */
+.p-inputgroup-addon:first-child, .p-inputgroup button:first-child, .p-inputgroup input:first-child, .p-inputgroup > .p-inputwrapper:first-child > .p-component, .p-inputgroup > .p-inputwrapper:first-child > .p-component > .p-inputtext {
+    border-top-right-radius: 4px !important;
+    border-bottom-right-radius: 4px !important;
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+}
+.p-inputgroup-addon:last-child, .p-inputgroup button:last-child, .p-inputgroup input:last-child, .p-inputgroup > .p-inputwrapper:last-child > .p-component, .p-inputgroup > .p-inputwrapper:last-child > .p-component > .p-inputtext {
+    border-top-left-radius: 4px !important;
+    border-bottom-left-radius: 4px !important;
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+}
+
+/* ---------------------------------------------- MultiSelect -------------------------------- */
+.p-multiselect .p-multiselect-panel {
+    overflow: inherit !important;
+    overflow-x:hidden;
+}
+.p-multiselect-panel .p-multiselect-items .p-multiselect-item .p-checkbox {
+    margin-left: 0.5rem !important;
+    margin-right: 0 !important;
+}
+.p-multiselect-panel .p-multiselect-header .p-checkbox {
+    margin-left: 0.5rem !important;
+    margin-right: 0 !important;
+}
+.p-multiselect-panel .p-multiselect-header .p-multiselect-close {
+    margin-right: 0.5rem !important;
+    margin-left: 0 !important;
+}
+.p-multiselect-panel .p-multiselect-header .p-multiselect-filter-container {
+    direction: ltr !important;
+}
+.p-multiselect-panel .p-multiselect-header .p-multiselect-filter-container .p-inputtext {
+    direction: rtl !important;
+    padding-left: 2rem !important;
+    padding-right:  0.75rem !important;
+}
+.p-multiselect-panel .p-multiselect-header .p-multiselect-filter-container .p-multiselect-filter-icon {
+    left: 0.75rem !important;
+    right: auto !important;
+    width: auto;
+}
+/* ---------------------------------------------- Datatable -------------------------------- */
+.p-datatable .p-datatable-gridlines .p-paginator-bottom {
+    direction: ltr !important;
+}
+/* ---------------------------------------------- Button -------------------------------- */
+.p-button .p-button-icon-left {
+    margin-left: 0.5rem !important;
+    margin-right: 0 !important;
+}
+.p-button .p-button-icon-right {
+    margin-left: 0 !important;
+    margin-right: 0.5rem !important;
+}
+.p-button.p-button-icon-only .p-button-icon-left, .p-button.p-button-icon-only .p-button-icon-right {
+    margin: 0 !important;
+}
+/* ---------------------------------------------- Dialog -------------------------------- */
+
+.p-dialog.p-confirm-dialog .p-confirm-dialog-message {
+    margin-right: 1rem !important;
+    margin-left: 0 !important;
+}
+/* ---------------------------------------------- Toast -------------------------------- */
+
+.p-toast .p-toast-message .p-toast-message-content .p-toast-message-text {
+    margin: 0 1rem 0 0 !important;
+}
+/* ---------------------------------------------- Menu bar -------------------------------- */
+
+.p-menubar .p-menubar-root-list > .p-menuitem > .p-menuitem-link .p-menuitem-icon {
+    margin-left: 0.5rem !important;
+    margin-right: 0 !important;
+}
+.p-menubar .p-menubar-root-list > .p-menuitem > .p-menuitem-link {
+    padding: 0.25rem 0.75rem !important;
+}
+.p-menubar .p-menubar-root-list > .p-menuitem > .p-menuitem-link .p-submenu-icon {
+    margin-right: 0.5rem;
+}
+.p-menubar .p-menuitem-link .p-menuitem-icon {
+    margin-left: 0.5rem;
+}
+.p-menubar .p-menubar-custom, .p-menubar .p-menubar-end {
+    margin-right: auto !important;
+    justify-self: flex-end;
+}
+/* ---------------------------------------------- Accordion -------------------------------- */
+
+
+.p-accordion .p-accordion-header .p-accordion-header-link .p-accordion-toggle-icon {
+    margin-left: 0.5rem !important;
+}
+/* ------------------------------------------------------ Paginator */
+/* Paginator */
+/* //-------------------------------------------------------- menu basic*/
+.p-menu .p-menuitem-link .p-menuitem-text {
+    margin-right: 10px !important;
+}
+/* //-------------------------------------------------------- select button*/
+.p-buttonset .p-button:not(:last-child) {
+    border-right: 1px solid #ced4da !important;
+    border-left: 0 none !important;
+}
+
+.p-buttonset .p-button:first-of-type {
+    
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+    border-top-right-radius: 2px !important;
+    border-bottom-right-radius: 2px !important;
+}
+/* .p-buttonset .p-button:not(:last-child){
+    border-left: 0 none;
+} */
+.p-buttonset .p-button:last-of-type {
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+    border-top-left-radius: 2px !important;
+    border-bottom-left-radius: 2px !important;
+    
+}
+/* .p-buttonset .p-button:last-of-type {
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+    border-top-left-radius: 2px !important;
+    border-bottom-left-radius: 2px !important;
+}
+.p-buttonset .p-button:first-of-type {
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+    border-top-right-radius: 2px !important;
+    border-bottom-right-radius: 2px !important;
+} */
+/* ------------------------------------------------------------ Radio button */
+.p-radiobutton-label {
+    margin-right: 0.5rem !important;
+    margin-left: 0 !important;
+}
+/* ------------------------------------------------------------ Drop Down */
+.p-dropdown .p-dropdown-clear-icon {    
+    right:auto !important;
+    left: 3rem !important;
+}
+.p-dropdown .p-inputtext {
+    font-family: VazirN, Tahoma, sans-serif;
+}
+/* ------------------------------------------------------------ Message */
+.p-message .p-message-icon {
+    margin-left: 0.5rem !important;
+    margin-right: 0 !important;
+}
+.p-message-close.p-link {
+    margin-right: auto !important;
+    margin-left: 0 !important;
+}
+/* ------------------------------------------------------------ Steps */
+.p-steps .p-steps-item .p-menuitem-link .p-steps-title {
+    padding-right: 0.5rem !important;
+}
+
+/* ---------------------------------- Quill Editor ---------------------------------- */
+/* .ql-editor{
+    direction: rtl;
+    text-align: right !important;
+}
+.ql-align-right{
+    direction: ltr;
+    text-align: left !important;
+}
+.ql-editor li:not(.ql-direction-rtl)::before{
+    padding: 0 !important;
+}
+.ql-editor ol li:not(.ql-direction-rtl), .ql-editor ul li:not(.ql-direction-rtl) {
+    padding: 0 !important;
+} */
+/* ---------------------------------- p-chips ---------------------------------- */
+p-chips .p-inputtext{
+    width: 100%;
+}
+.p-chips .p-chips-multiple-container .p-chips-token {
+    margin-right: 0 !important;
+    margin-left: 0.5rem;
+}
+.p-chips .p-chips-multiple-container .p-chips-token .p-chips-token-icon {
+    margin-left: 0 !important;
+    margin-right: 0.5rem;
+}
+/* ---------------------------------- .p-fileupload ---------------------------------- */
+.p-fileupload .p-fileupload-buttonbar {
+    padding: 0.5rem !important;
+}
+.p-fileupload .p-fileupload-content {
+    padding: 1rem 1rem !important;
+}
+/* ---------------------------------- Table Filter Input Number ---------------------------------- */
+.p-inputnumber-buttons-stacked .p-inputnumber-input {
+    border-top-right-radius: 4px !important;
+    border-bottom-right-radius: 4px !important;
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+}
+.p-inputnumber-buttons-stacked .p-button.p-inputnumber-button-up {
+    border-top-left-radius: 4px !important;
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+}
+.p-inputnumber-buttons-stacked .p-button.p-inputnumber-button-down {
+    border-top-right-radius: 0 !important;
+    border-top-left-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+    border-bottom-left-radius: 4px !important;
+}

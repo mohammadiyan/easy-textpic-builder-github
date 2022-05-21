@@ -1,0 +1,41 @@
+/* primary font */
+@import url('../farsi-fonts-styles/primary-iran-yekan.css');
+/* secondary font */
+@import url('../farsi-fonts-styles/secondary-aviny.css');
+/* rtl primeflex */
+@import url('./primeflex.rtl.css');
+/* rtl primeNG */
+@import url('./primeNg.rtl.css');
+
+@font-face {
+	font-family: "vazir";
+	src: url("../fonts/farsi-fonts/vazir-700.eot");
+	src: url("../fonts/farsi-fonts/vazir-700.eot?#iefix") format("embedded-opentype"),
+		 url("../fonts/farsi-fonts/vazir-700.woff2") format("woff2"),
+		 url("../fonts/farsi-fonts/vazir-700.woff") format("woff"),
+		 url("../fonts/farsi-fonts/vazir-700.ttf") format("truetype");
+	font-weight: 700;
+}
+
+h1,h2,h3,h4,h5,h6{
+    padding: 0;
+    margin: 0;
+    font-family: 'secondary-font', Tahoma, sans-serif;
+}
+p{
+    padding: 0;
+    margin: 0;
+    font-family: 'primary-font', Tahoma, sans-serif;
+}
+body{
+    font-family: 'primary-font', Tahoma, sans-serif;
+    direction: rtl;
+    background-image: url('../../img/back-style.png');
+}
+
+/* .atitle,.p-dialog-header{
+    font-family: 'vazir', Tahoma, sans-serif ;
+} */
+.p-component,.p-element,.ql-editor,textarea,p-chips *{
+    font-family: 'vazir', Tahoma, sans-serif !important;    
+}
